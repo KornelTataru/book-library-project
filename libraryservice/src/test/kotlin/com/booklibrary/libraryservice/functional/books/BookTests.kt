@@ -16,7 +16,7 @@ import org.springframework.web.context.WebApplicationContext
 
 @SpringBootTest
 @ExtendWith(SpringExtension::class)
-class BooksTests {
+class BookTests {
     private val baseUrl = "http://localhost:8080/books/"
     private val jsonContentType = MediaType(MediaType.APPLICATION_JSON.type, MediaType.APPLICATION_JSON.subtype)
     private lateinit var mockMvc: MockMvc
